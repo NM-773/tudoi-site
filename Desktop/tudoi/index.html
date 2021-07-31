@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>手作りの店つどい</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1 class="tudoi"><span class="make-shop">手作りの店</span>つどい</h1>
+      </div>
+      <div id="js-gnavbtn" class="gnavbtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="gnav" id="top">
+        <ul class="menu-group">
+          <li class="menu-item">
+            <a href="#top"><span>トップ</span></a>
+          </li>
+          <li class="menu-item">
+            <a href="#menu"><span>メニュー</span></a>
+          </li>
+          <li class="menu-item">
+            <a href="#shop"><span>お店情報</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="top-img">
+      <img class="tudoi-img" width="100%" src="dounatu.jpg" />
+    </div>
+    <section class="item-wrap" id="menu">
+      <h2>メニュー</h2>
+    </section>
+    <div class="container">
+      <div class="box1">
+        <img class="menu-img" src="popai.jpg" width="80%" alt="" />
+        <p class="menu-list">鳥ミンチとほうれん草の</p>
+        <p class="menu-bowl">ポパイ丼</p>
+        <p class="menu-money">¥500</p>
+      </div>
+
+      <div class="box2">
+        <img class="menu-img" src="tyasyuudon.jpg" width="80%" alt="" />
+        <p class="menu-bowl">チャーシュー丼</p>
+        <p class="aburi">（チーズ炙り+¥100）</p>
+        <p class="menu-money">¥500</p>
+      </div>
+      <div class="box3">
+        <img class="menu-img" src="butakimuti.jpg" width="80%" alt="" />
+        <p class="menu-bowl">豚キムチ丼</p>
+        <p class="aburi">（チーズ炙り+¥100）</p>
+        <p class="menu-money">¥500</p>
+      </div>
+      <div class="box4">
+        <img class="ramen-img" src="ramen.png" width="90%" alt="" />
+        <p class="menu-ramen">ラーメン</p>
+        <p class="ramen-aji">（豚骨・醤油・味噌・塩）</p>
+        <p class="menu-aburi">（ご飯とチーズ乗せあぶり+¥200）</p>
+        <p class="menu-money">¥500</p>
+      </div>
+    </div>
+
+    <section class="other-menu">
+      <!-- <img class="ita-img" src="ita.jpg" width="80%" /> -->
+      <div class="menu">
+        <h2 class="title-menu">その他メニュー</h2>
+        <p class="sub-menu">（日によってこちらのメニューがあります）</p>
+
+        <div class="menu-box">
+          <div class="sonota-menu">
+            <div class="left-menu">
+              <div>鶏,魚唐揚げ ・・・（各）¥500</div>
+              <div>ホルモン炒め・・・¥500</div>
+              <div>玉子焼き　　・・・¥500</div>
+              <div>豚の角煮　　・・・¥500</div>
+              <div>面の皮炒め　・・・¥500</div>
+            </div>
+            <div class="right-menu">
+              <div>枝豆　　　　　・・・¥200</div>
+              <div>トマトスライス・・・¥300</div>
+              <div>新玉スライス　・・・￥300</div>
+            </div>
+          </div>
+          <!-- end of sonota-menu -->
+
+          <div class="drink-menu">
+            <h2 class="drink">ドリンク</h2>
+            <div class="drink-list">
+              <p>焼酎（島のナポレオン）　　　　　・・・￥2000</p>
+              <p>生ビール（アサヒスーパードライ）・・・￥400</p>
+              <p>缶ビール（発泡酒）　　　　　　　・・・￥200</p>
+              <p>お茶・ソフトドリンク　　　　　　・・・￥100</p>
+            </div>
+          </div>
+          <!-- end of drink-menu -->
+        </div>
+        <!-- end of menu-box-->
+      </div>
+      <!-- end of menu -->
+    </section>
+
+    <br />
+    <section class="Information-shop" id="shop">
+      <h2>お店情報</h2>
+    </section>
+    <div class="shop-news">
+      <div class="shop-about">
+        <div class="shop-time-wrap">
+          <div class="shop-time-detail">
+            <div class="shop-time"><span>営業時間</span></div>
+            <p class="shop-text">
+              サーターアンダギー:8:00~閉店まで<br />
+              <span>昼の部:11:00~13:00</span><br />
+              <span>午後の部:17:00~閉店まで</span>
+            </p>
+
+            <div class="address"><span>住所</span></div>
+            <div class="address-text">
+              伊仙町面縄2109-11 <br />
+              無休ですが都合によります。
+            </div>
+          </div>
+          <!-- end of shop-time-detail -->
+
+          <div class="picture">
+            <img class="tudoi-shop-img" src="tudoi-shopp.PNG"/>
+          </div>
+        </div>
+        <!-- end of shop-time-wrap -->
+
+        <!-- <div class="address"><span>住所</span></div>
+        <div class="address-text">
+          伊仙町面縄2109-11 <br />
+          無休ですが都合によります。
+        </div> -->
+
+        <!-- <div class="picture">
+          <img class="tudoi-shop-img" src="tudoi-shopp.PNG" width="30%" />
+        </div> -->
+      </div>
+      <!-- end of shop-about -->
+    </div>
+
+    <div class="inside-shop">
+      <div class="inside-head">
+        <img class="tudoi-shop" src="tudoi.PNG" width="30%" />
+        <img class="tudoi-inside" src="shop-inside.jpg" width="33%" />
+      </div>
+      <section>
+        <p class="satandagi-text">サーターアンダギーとみそ豆あります！</p>
+      </section>
+
+      <div class="inside-outer">
+        <img class="satandagi" src="satandagi.jpg" width="25%" />
+        <img class="misomame" src="misomame.PNG" width="26%" />
+      </div>
+    </div>
+    
+
+    <div class="message">
+      <div class="message-text">
+        <p class="hitokoto">〇店長から一言〇</p>
+        <p class="okosikudasai">ぜひお店にお越しください♪</p>
+        <div class="Details">詳細はこちらをクリック</div>
+        <a href="https://www.instagram.com/tsudoi2021/?hl=ja">
+          <img class="inst" src="inst.png" width="45px"/>
+        </a>
+        <p class="inst-message">
+          インスタやってますので<br />ぜひフォローお願いします。
+        </p>
+      </div>
+      <div class="tentyouClass">
+        <img class="tentyou" src="tentyou.jpg" />
+      </div>
+    </div>
+
+    <footer>
+      <p class="fotter-title">手作りの店 <span>つどい◎</span></p>
+    </footer>
+    <script type="text/javascript" src=script.js></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(function(){
+        $("#js-gnavbtn").click(function(){
+          $('body').toggleClass("show");
+
+        });
+      });
+    </script>
+  </body>
+</html>

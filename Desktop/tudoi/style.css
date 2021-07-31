@@ -1,0 +1,687 @@
+body{
+  background-color: #814B04;
+  margin: 0px auto;
+  padding: 0px;
+  max-width: 1080px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.make-shop{
+  font-size: 14px;
+}
+
+.tudoi{
+  font-size: 30px;
+  color: #629DC9;
+  margin-top:5px;
+}
+
+
+ul{
+  padding-right:100px;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  color:white;
+  text-decoration: none;
+}
+nav a span {
+  padding-right: 60px;
+  font-size:20px;
+}
+
+.menu-item{
+  list-style: none;
+  float:left;
+  text-decoration: none;
+  padding-left: 70px;
+  padding-top:10px;
+  display: block;
+  list-style-type: none;/* 丸を消す */
+  border-left: 1px solid #FAF6F6 ;
+  height:20px;
+}
+
+
+.menu-item:last-child {
+  border-right: 1px solid#FAF6F6;
+}
+
+.item-wrap{
+  color: white;
+  font-size: 30px;
+  padding-left:100px;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.box1{
+  height:300px;
+  padding: 0.5em 1em;
+  width:190px;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 1px #000000;
+    background-color: #118C08;
+}
+
+.box2{
+  height:300px;
+  padding: 0.5em 1em;
+  width:190px;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 1px #000000;
+    background-color: #118C08;
+}
+
+.box3{
+  height:300px;
+  padding: 0.5em 1em;
+  width:190px;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 1px #000000;
+    background-color: #118C08;
+}
+
+.box4{
+  height:300px;
+  padding: 0.5em 1em;
+  width:190px;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 1px #000000;
+    background-color: #118C08;
+}
+
+.menu-img{
+  margin-left:20px;
+  margin-top:10px;
+}
+
+.ramen-img{
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.menu-list{
+  font-size:15px;
+  color:white;
+  text-align: center;
+}
+
+.menu-bowl{
+  font-size:20px;
+  text-align: center;
+  color:white;
+}
+
+.menu-money{
+  font-size:20px;
+  text-align: center;
+  color:white;
+}
+
+.aburi{
+  font-size:13px;
+  color:white;
+  text-align: center;
+}
+
+.ramen-aji{
+  font-size:13px;
+  color:white;
+  text-align: center;
+}
+
+.menu-aburi{
+  font-size:10px;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-ramen{
+  font-size:20px;
+  color:white;
+  text-align: center;
+  line-height: 3px;
+  padding-top:27px;
+}
+
+.ita-img{
+ display: block;
+ margin:auto;
+ border-radius: 30px;
+}
+
+.other-menu{
+  background: url(ita.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 96%;
+  margin: 0 2%;
+}
+
+.menu{
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.title-menu{
+  font-size: 30px;
+  color:#10ECF3;
+  
+}
+
+.sub-menu{
+  font-size:25px;
+  color:white;
+  border-bottom: dotted 3px #FFFFFF;
+  padding-bottom:10px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+.sonota-menu{
+  display:flex;
+  justify-content: center;
+}
+.left-menu{
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+}
+
+.right-menu{
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+  padding-left: 50px;
+} 
+
+
+ .drink-menu{
+  font-size: 20px;
+  line-height: 30px;
+  padding-top:50px;
+} 
+
+.drink{
+  font-size: 30px;
+  color: #10ECF3;
+  border-bottom: dotted 3px #FFFFFF;
+  padding-bottom:10px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.drink-list{
+  font-size: 25px;
+  color: white;
+}
+
+.Information-shop{
+  font-size: 30px;
+  color: white;
+  padding-left:100px;
+}
+
+.shop-news{
+  display: flex;
+}
+
+.shop-time{
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.shop-time span{
+  background-color: #24DEEB;
+}
+
+.shop-text{
+  color: white;
+  font-size:25px;
+  line-height: 40px;
+}
+
+.shop-text span{
+  font-size: 30px;
+}
+
+.address{
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.address span{
+  background-color: #24DEEB;
+}
+
+.address-text{
+  color: white;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+
+.shop-time-wrap{
+  display:flex;
+  justify-content:space-between;
+
+}
+.shop-time-detail{
+  width: 100%;
+}
+
+.tudoi-shop-img{
+  width:80%;
+  padding-left:15%;
+  margin-right: 5%;
+}
+
+
+/* こちらを追加 */
+.inside-shop{
+  margin-top: 60px;
+}
+
+.inside-head{
+  /* text-align: center; */
+  display:flex;
+  justify-content: space-around;
+}
+
+/* .tudoi-shop{
+  margin-right: 200px;
+} */
+
+.satandagi-text{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.inside-outer{
+  /* text-align: center */
+  display:flex;
+  justify-content: space-around;
+}
+
+/* .satandagi{
+  margin-right: 200px;
+} */
+
+.message{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 25px;
+}
+
+
+.message-text{
+  position: relative;
+  /* display: inline-block;
+  /* margin-left: 200px; */
+  margin-top:50px;
+  padding: 7px 10px;
+  /* min-width: 120px;
+  max-width: 100%; */
+  font-size: 16px;
+  background: #0AD7FF;
+  border-radius: 30px;
+  /* max-width: 500px; */
+}
+
+/* .message-text::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -13px;
+  bottom:30px;
+  border-left: 15px solid #0AD7FF;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+} */
+
+.hitokoto{
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.okosikudasai{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Details{
+  font-weight: bold;
+  color:hotpink;
+  font-size: 15px;
+  margin-left: 30px;
+  line-height: 1px;
+}
+
+.inst{
+  margin-left: 10px;
+  position: absolute;
+  bottom: 10px;
+  padding: 15px;
+}
+
+.inst-message{
+  font-weight: bold;
+  font-size: 15px;
+  float: right;
+  margin-right: 50px;
+}
+
+.tentyou{
+  border-radius: 50%;
+   max-width:  180px;
+   margin-top: 40px;
+    /* 
+    height: 180px;
+    padding:50px;
+    width: 40%; */
+}
+
+.tentyouClass{
+  margin-top: 50px;
+}
+  
+
+
+footer{
+background-color: #650909;
+width: 100%;
+height: 10px; 
+text-align: center;
+padding: 50px 0; 
+padding-top:20px
+}
+
+.fotter-title{
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.fotter-title span{
+  font-size: 30px;
+}
+
+
+
+
+/* スマホ記述 */
+@media screen and (max-width:480px) {
+  .tudoi-img{
+    width: 100%;
+  }
+
+  .logo{
+    margin:0 auto;
+    margin-top: 20px;;
+  }
+
+  .item-wrap{
+    text-align: center;
+    padding-right: 50px;
+    font-size:20px;
+ }
+
+ .container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .other-menu{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+ }
+
+ .sub-menu{
+ font-size: 15px;
+ font-weight: bold;
+ }
+ .sonota-menu{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .left-menu{
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ .right-menu{
+   font-size: 20px;
+   font-weight: bold;
+   margin-left : -30px
+ }
+
+ .drink-menu{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .drink-list{
+   font-size: 15px;
+   font-weight: bold;
+ }
+
+ .Information-shop{
+   font-size: 20px;
+   padding-right: 50px;
+   text-align: center;
+ }
+
+ .shop-news{
+   padding-left: 25px;
+ }
+
+ .shop-time-wrap{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ .shop-text{
+font-size: 20px;
+ }
+
+ .shop-text span{
+font-size: 25px;
+ }
+
+ .address-text{
+ font-size: 20px;
+ }
+
+ .picture{
+ padding-top: 30px; 
+ width: 75%;
+ }
+
+ .inside-shop{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .tudoi-shop{
+   width: 50%;
+ }
+
+ .tudoi-inside{
+   width: 50%;
+ }
+
+ .satandagi-text{
+   font-size: 25px;
+ }
+
+ .inside-outer{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .satandagi{
+   width: 50%;
+ }
+
+ .misomame{
+   width: 50%;
+ }
+
+ .message-text{
+  /* margin-left: 35px; */
+  margin: 0 35px;
+  
+ }
+
+ .hitokoto{
+font-size: 25px;
+ }
+
+ .okosikudasai{
+   font-size: 20px;
+ }
+
+ .inst-message {
+   font-size: 15px;
+   margin-top: 50px;
+ }
+
+ .Details{
+   margin-top: 30px;
+ }
+ .inst{
+   margin-bottom: 0px;
+  margin-left: 20px;
+  width: 15%;
+ }
+
+
+ .inside-head{
+  /* text-align: center; */
+  flex-direction: column;
+}
+
+
+.inside-head img{
+margin-bottom: 30px;
+margin-left:  auto;
+margin-right:  auto;
+width: 90%;
+}
+
+.inside-outer{
+  flex-direction: column;
+}
+.inside-outer img{
+  margin-bottom: 30px;
+  margin-left:  auto;
+  margin-right:  auto;
+  width: 90%;
+  }
+
+  .message{
+    flex-direction: column;
+  }
+
+  .tentyouClass{
+    text-align: center;
+  }
+
+.tudoi-shop-img {
+    width: 400px;
+    margin-left: -80px;
+}
+
+.gnavbtn{
+  width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:maroon;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.gnavbtn span {
+  width: 20px;
+  height: 2px;
+  background:#FFFFFF;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+
+.gnav ul{
+  width: 80%;
+  height: 100%;
+  display:block;
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  transform: translate(100%);
+  transition: 1s;
+  background:rgba(126, 77, 77,0.9);
+}
+
+.gnav li{
+  width: 100%;
+  border: none;
+  text-align: center;
+  margin-bottom: 30px;
+}  
+
+.show .gnav ul{
+  transform: translate(0);
+}
+
+ }
+
+
+  
+
+
+
+
